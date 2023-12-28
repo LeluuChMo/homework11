@@ -190,3 +190,11 @@ body {
   margin-left: 149px;
   margin-top: 247px;
 }
+@media (max-width: 1024px) {
+  .nav-bar {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+}
