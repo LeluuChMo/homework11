@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+@font-face {
+  font-family: DM Sans;
+  src: url(fonts/DMSans-Regular.ttf) format(ttf);
+}
+@font-face {
+  font-family: Ultra;
+  src: url(fonts/Ultra-Regular.ttf) format(ttf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(fonts/Oswald-Regular.ttf) format(ttf);
+}
