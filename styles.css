@@ -1,7 +1,8 @@
 * {
-  box-sizing: border-box;
   padding: 0%;
   margin: 0%;
+  text-decoration: none;
+  list-style: none;
 }
 @font-face {
   font-family: DM Sans;
@@ -14,4 +15,79 @@
 @font-face {
   font-family: Oswald;
   src: url(fonts/Oswald-Regular.ttf) format(ttf);
+}
+body {
+  box-sizing: border-box;
+  background: #f5d3ab;
+}
+.header {
+  background-color: #171b1b;
+  height: 58px;
+  width: 100%;
+}
+.container {
+  display: flex;
+  max-width: 1170px;
+  margin: auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  height: 48px;
+}
+.main-logo {
+  color: #fff;
+  font-family: Ultra, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.logo {
+  color: #fff;
+  font-family: Ultra, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.nav-bar {
+  margin-left: 73px;
+  margin-top: 16px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 289px;
+}
+.nav-item {
+  color: #fff;
+  text-align: right;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 138px;
+  height: 48px;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 550px;
+}
+.contact {
+  color: #fff;
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
